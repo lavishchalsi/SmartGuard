@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".confirm">
+
+    <TextView
+        android:id="@+id/textView_1_confirm_user_format"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ques"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView_2_confirm_user_format"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_2_confirm_user_format"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/text5"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView_3_confirm_user_format"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_1_confirm_user_format" />
+
+    <TextView
+        android:id="@+id/textView_3_confirm_user_format"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/text6"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView_4_confirm_user_format"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_2_confirm_user_format" />
+
+    <TextView
+        android:id="@+id/textView_4_confirm_user_format"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/text7"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView_5_confirm_user_format"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_3_confirm_user_format" />
+
+    <TextView
+        android:id="@+id/textView_5_confirm_user_format"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/neg"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView_6_confirm_user_format"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_4_confirm_user_format" />
+
+    <TextView
+        android:id="@+id/textView_6_confirm_user_format"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/co_pos"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView_5_confirm_user_format"
+        app:layout_constraintTop_toBottomOf="@+id/textView_4_confirm_user_format" />
+</androidx.constraintlayout.widget.ConstraintLayout>
